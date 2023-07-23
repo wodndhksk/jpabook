@@ -20,6 +20,6 @@ public class Member {
     private String zipcode;
 
     @OneToMany(mappedBy = "member")
-    @JoinColumn(name = "ORDER_ID")
+//    @JoinColumn(name = "ORDER_ID")
     private List<Order> orders = new ArrayList<>();
 }
