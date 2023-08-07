@@ -1,8 +1,6 @@
 package hellojpa.jpabook.jpashop;
 
 import hellojpa.jpabook.jpashop.domain.Book;
-import hellojpa.jpabook.jpashop.domain.Order;
-import hellojpa.jpabook.jpashop.domain.OrderItem;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
